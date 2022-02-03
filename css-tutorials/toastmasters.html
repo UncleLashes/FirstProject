@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="toastmasters.css">
+    <!-- <script src="https://kit.fontawesome.com/f07a.js" crossorigin="anonymous"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- <div class="siteLogo">
+            <img src="https://www.toastmasters.org/content/images/globals/toastmasters-logo@2x.png" />
+        </div> -->
+        
+        <div class="top-most-div">
+            <i class="fas fa-shopping-cart" ></i>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Find a Club</a></li>
+                    <li><a href="#">Start a Club</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            
+            <div class="Search">
+                <input type="text" placeholder="">
+                
+                    <button class="button-search" type="submit">
+                        <span class="text">Search</span>
+                    </button>
+            </div>
+            
+        </div>
+        <div class="top-bottom-div">
+            <div class="mid-div">
+                <h2 class="slogan">WHERE LEADERS ARE MADE</h2>
+                <h2 class="find-a-club">FIND A CLUB</h2>
+            </div>
+            <div>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pathways</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Leadership Central</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="subheader"><br>
+
+        <ul class="content">
+            <li><a href="/">Home</a></li>
+            <li><span>/</span>Unexpected Error</li>
+
+        </ul><br>
+</div>
+    <div class="error-info">
+    <p>We're sorry, we encountered a problem with the page you're looking for. Please try again! If the problem persists, send us your comments and please describe what happened in your comments and we'll be happy to help.</p>                
+    </div><br>
+    <form method="POST">  
+        <div class="form">
+            <label for="Email">Email</label><span class="required_asterisk">*</span><br>
+            <input class="form-input" id="Email" maxlength="80" name="Email" required="required" type="email" value="" placeholder="someone@email.com"/>
+        </div><br>
+        <div class="form">
+            <label for="Please_describe_what_happened">Please describe what happened</label><span class="required_asterisk">*</span><br>
+            <textarea class="form-input" cols="20" id="Comments" maxlength="500" name="Comments" required="required" rows="5">
+    </textarea><br>
+            <small>500 characters max</small><br><br>
+    <div class="Send-button">
+        <input type="submit" class="form" id="submit" value="Send">
+    </div>
+</body>
+</html>

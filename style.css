@@ -1,0 +1,14 @@
+body {
+    margin: 1;
+    background-image: linear-gradient(to right,rgb(235, 221, 235),snow);
+}
+table,th,td,tr.decor {
+    border: 1px inset white;
+    border-collapse: collapse;
+    background-color: rgb(105, 84, 105);
+    color: whitesmoke;
+    text-align: center;
+}   
+table.decor{
+    width: 50%;
+}

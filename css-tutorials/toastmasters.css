@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+    
+
+.search {
+    margin-left: 30px;
+    height: 35px;
+    
+}
+.top-most-div {
+    display: flex;
+    background-color: #922B21;
+    justify-content: flex-end;
+    height: 40px;
+    padding: 10px 35px 0 35px;
+    
+}
+.top-most-div ul{
+    display: flex;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+.top-most-div ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.top-most-div ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.top-most-div ul li a:hover {
+    color: rgb(216, 199, 126);
+}
+.top-bottom-div {
+    
+    background-color: #7B241C;
+    justify-content: flex-end;
+    height: 80px;
+}
+.top-bottom-div ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    width: 80%;
+    float: right;
+}
+.top-bottom-div ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.925);
+    margin-left: 20px;
+    font-size: large;
+}    
+   
+.top-bottom-div ul li a:hover{
+    background-color: rgb(167, 164, 164);
+    color: rgb(5, 5, 5);   
+}    
+
+.mid-div {
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+    padding: 0 35px 0 35px;
+    box-sizing: border-box;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+} 
+.slogan {
+    color: rgb(192, 189, 189);
+    
+}
+.find-a-club {
+    background-color: rgb(235, 224, 68);
+    color: rgb(17, 16, 16);
+    width: 160px;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 10px;
+    border: 1px solid #f0d16a;
+    border-radius: 4px;
+}
+.find-a-club:hover {
+    background-color: rgb(238, 228, 96);
+    color: beige;
+}
+.subheader {
+    margin: 2;
+
+}
+.content {
+    display: flex;
+    list-style: none;
+    padding: 0 35px 0 35px;
+    font-size: larger;  
+    
+}
+.content ul li a {
+    margin-left: 50px;
+}
+.error-info {
+    padding: 0 35px 0 35px;
+    width: 55%;
+    font-size: larger;
+}
+.required_asterisk {
+    color: rgb(216, 42, 42);
+}
+.form {
+    padding: 0 35px 0 35px;
+}
+.form-input {
+    width: 70%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #C0392B;
+    border-radius: 4px;
+}
+/* .Send-button {
+    color: beige;
+    height: 20px;
+}
+.Send-button:hover {
+
+} */
+

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    font-size: larger;
+}
+.main-header #other{
+    margin-left: -37px;
+}
+
+.sign-up {
+    display: flex;
+    margin-right: 20px;
+    font-weight: 100;
+    padding-right: 35px;
+
+    
+}
+
+.sign-up a {
+    margin-left: -40px;
+    text-decoration: none;
+    color: #6C3483;
+    
+}
+
+.main-body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+}
+
+.login-image {
+    background-color: #fff;
+    width: 50%;
+}
+
+.login-image img{
+    width: 95%;
+    height: auto;
+}
+
+.login-section {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    
+}
+
+.login-section .submit button{
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #6C3483;
+    width: 150px;
+    margin-left: -18px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-radius: 30%;
+    
+}
+.login-section .submit button:hover{
+    
+    color: rgb(233, 223, 236);
+    opacity: 0.4;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+.login-section h3 {
+    color: rgb(122, 119, 119);
+    margin-top: -40px;
+}
+
+.login-section h1 {
+    color: rgb(27, 26, 26);
+    font-size: 50px;
+}
+
+.login-section .form i {
+    color: #6C3483;
+    font-size: 25px;
+}
+    
+
+.submit a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: smaller;
+    color: gray;
+}
+
+.form input{
+    width: 88%;
+    height: 50px;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #771ac4;
+    border-radius: 4px;
+}
+
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    background-color: indigo;
+}
+.login-section .login-options i {
+    font-size:40px;
+    
+}
+.login-options h4 {
+    color: rgb(122, 119, 119);
+    background-color: greenyellow;
+}
